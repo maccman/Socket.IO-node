@@ -2,7 +2,7 @@ var http = require('http'),
 		url = require('url'),
 		fs = require('fs'),
 		io = require('../'),
-		sys = require('sys'),
+		util = require('util'),
 		
 server = http.createServer(function(req, res){
 	// your normal server code
